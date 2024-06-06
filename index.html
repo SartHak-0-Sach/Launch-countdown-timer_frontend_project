@@ -2,30 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Launch countdown timer</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Launch countdown timer</title>
 </head>
 <body>
-
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <main>
+    <h2>We're launching soon</h2>
+    
+    <div class="countdown">
+      <div class="days">
+        <div class="flip-card">
+          <div class="top">00</div>
+          <div class="bottom">00</div>
+        </div>
+        <p class="title">Days</p>
+      </div>
+      
+      <div class="hours">
+        <div class="flip-card">
+          <div class="top">00</div>
+          <div class="bottom">00</div>
+        </div>
+        <p class="title">Hours</p>
+      </div>
+      
+      <div class="minutes">
+        <div class="flip-card">
+          <div class="top">00</div>
+        <div class="bottom">00</div>
+      </div>
+      <p class="title">Minutes</p>
+    </div>
+    
+    <div class="seconds">
+      <div class="flip-card">
+        <div class="top">00</div>
+        <div class="bottom">00</div>
+      </div>
+      <p class="title">Seconds</p>
+    </div>
   </div>
+  
+  <div class="footer">
+    <img src="./images/pattern-hills.svg" alt="">
+    <div class="media">
+      <span class="facebook"><img src="./images/icon-facebook.svg" alt=""></span>
+      <span class="pintrest"><img src="./images/icon-pinterest.svg" alt=""></span>
+      <span class="instagram"><img src="./images/icon-instagram.svg" alt=""></span>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" title="link" rel="noopener">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/SartHak-0-Sach" target="_blank" title="link" rel="noopener">Sarthak Sachdev</a>.
+    </div>
+  </div>
+</main> 
+
+<script src="script.js"></script>
 </body>
 </html>
